@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ubiquity-dice-roller/static/css/main.e1c298db.css",
+    "main.js": "/ubiquity-dice-roller/static/js/main.16b4954a.js",
+    "static/media/coinflip.svg": "/ubiquity-dice-roller/static/media/coinflip.9c6c01952d3c6064b08f93748dd451ab.svg",
+    "index.html": "/ubiquity-dice-roller/index.html",
+    "main.e1c298db.css.map": "/ubiquity-dice-roller/static/css/main.e1c298db.css.map",
+    "main.16b4954a.js.map": "/ubiquity-dice-roller/static/js/main.16b4954a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1c298db.css",
+    "static/js/main.16b4954a.js"
+  ]
+}
