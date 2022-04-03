@@ -55,7 +55,7 @@ export const App = () => {
           <img src={Logo} width={125} />
         </div>
         <h1 className={styles.title}>Ubiquity Dice Roller</h1>
-        <p className={styles.instructions}><span className={styles.blue}>Blue dice</span> are a 50/50 roll.  <span className={styles.green}>Green dice</span> are the equivalent of 2 Blue dice, and <span className={styles.red}>Red dice</span> the equivalent of 3 Blue dice. <em>Click a dice to rolling!</em></p>
+        <p className={styles.instructions}><span className={styles.blue}>Blue dice</span> are a 50/50 roll.  <span className={styles.green}>Green dice</span> are the equivalent of 2 Blue dice, and <span className={styles.red}>Red dice</span> the equivalent of 3 Blue dice. <em>Click a dice to start rolling!</em></p>
         <div className={styles.diceControls}>
           <Dice diceType={DiceTypes.Single} staticVal="x1" onClick={() => addDice(DiceTypes.Single)} hasRolled={hasRolled} />
           <Dice diceType={DiceTypes.Double} staticVal="x2" onClick={() => addDice(DiceTypes.Double)}  hasRolled={hasRolled} />
