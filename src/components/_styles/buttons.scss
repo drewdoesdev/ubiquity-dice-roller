@@ -1,0 +1,17 @@
+@use "./variables.scss" as vars;
+
+$button--width: 300px;
+$button--font-size: 1.25rem;
+
+@mixin button {
+    width: 100%;
+    max-width: 150px;
+    margin: 1rem 0;
+    padding: 0.75rem;
+    color: vars.$champagne;
+    height: auto;
+    font-size: $button--font-size;
+    background-color: vars.$dark-blue;
+    border: 1px solid vars.$desert-yellow;
+    border-radius: 0.2rem
+}

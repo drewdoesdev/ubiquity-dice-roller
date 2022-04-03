@@ -1,0 +1,23 @@
+// Colors
+$champagne: #F9E7CF;
+$cocoa-brown: #201716;
+$orange: #ed6c4575;
+$bright-orange: #ed6c45;
+$sandal: #AA8C6C;
+$sky-blue: #528A9F;
+$dark-blue: darken(#528A9F, 25%);
+$earth-green: #7f9f4279;
+$bright-green: #7f9f42;
+$desert-yellow: #f6c96e;
+$disabled-gray: #dddddd;
+
+// Layout
+@mixin flexRowCenter {
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+// Media Queries
+$lg-phone: 425px;
+$tablet: 768px;
