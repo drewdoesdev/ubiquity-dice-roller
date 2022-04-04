@@ -94,3 +94,17 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+/* Fonts **/
+@font-face {
+  font-family: "Adventure";
+  src: url("./assets/Adventure-YGZ2.ttf") format("ttf")
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/Roboto-Black.ttf") format("ttf"),
+       url("./assets/Roboto-Medium.ttf") format("ttf"),
+       url("./assets/Roboto-Italic.ttf") format("ttf"),
+       url("./assets/Roboto-Bold.ttf") format("ttf")
+}

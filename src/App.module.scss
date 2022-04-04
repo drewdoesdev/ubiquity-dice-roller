@@ -30,11 +30,13 @@
       }
     }
     .title {
+      font-family: vars.$title-font;
       font-size: 2rem;
       margin: 2rem 0 2rem 0;
     }
   
     .instructions {
+      font-family: vars.$body-font;
       margin: 0 0 2rem 0;
       .blue { color: vars.$sky-blue; }
       .green {  color: vars.$bright-green }
@@ -54,7 +56,9 @@
     }
 
     .successes {
-      font-size: 1.5rem
+      font-family: vars.$body-font;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
     }
   
     .diceResults {

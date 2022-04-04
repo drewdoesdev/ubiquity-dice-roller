@@ -24,12 +24,16 @@
         width: 3rem;
         height: 3rem;
         border: 1px solid vars.$desert-yellow;
+        .number {
+            font-size: 1.5rem;
+        }
     }
 
     .number {
         transform: rotate(-45deg);
         user-select: none;
         font-size: 2rem;
+        font-family: vars.$body-font;
         font-weight: bold;
     }
 }

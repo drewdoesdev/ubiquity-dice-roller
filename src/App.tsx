@@ -11,14 +11,11 @@ export const App = () => {
 
   useEffect(() => {
     if(hasRolled){
-      console.log("Dice Array", diceArray,)
       diceArray.forEach(dice => {
         const {diceRoll, diceType} = dice;
         const faces = getDiceFace(diceType);
         if(diceRoll) {
-          console.log("Roll", faces[diceRoll]);
           const total = parseInt(faces[diceRoll]);
-          console.log("total", total);
           setSuccessTotal((prevState) => prevState + total);
         }
       })
@@ -48,11 +45,13 @@ export const App = () => {
     setHasRolled(true);
   }
 
+  const rollButtonText = hasRolled ? "Reroll Dice" : "Roll Dice";
+
   return (
     <div className={styles.app}>
       <div className={styles.content}>
         <div className={styles.logo}>
-          <img src={Logo} width={125} />
+          <img src={Logo} alt="logo" width={125} />
         </div>
         <h1 className={styles.title}>Ubiquity Dice Roller</h1>
         <p className={styles.instructions}><span className={styles.blue}>Blue dice</span> are a 50/50 roll.  <span className={styles.green}>Green dice</span> are the equivalent of 2 Blue dice, and <span className={styles.red}>Red dice</span> the equivalent of 3 Blue dice. <em>Click a dice to start rolling!</em></p>
@@ -61,7 +60,7 @@ export const App = () => {
           <Dice diceType={DiceTypes.Double} staticVal="x2" onClick={() => addDice(DiceTypes.Double)}  hasRolled={hasRolled} />
           <Dice diceType={DiceTypes.Tripple} staticVal="x3" onClick={() => addDice(DiceTypes.Tripple)}  hasRolled={hasRolled} />
         </div>
-        {diceArray.length > 0 && <button className={styles.rollDiceButton} onClick={rollDice}>Roll Dice</button>}
+        {diceArray.length > 0 && !hasRolled && <button className={styles.rollDiceButton} onClick={rollDice}>{rollButtonText}</button>}
         {hasRolled && <h2 className={styles.successes}>Successes: {successTotal}</h2>}
         <div className={styles.diceResults}>
           {diceArray.map(dice => {

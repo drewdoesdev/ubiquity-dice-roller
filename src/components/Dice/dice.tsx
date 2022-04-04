@@ -1,6 +1,6 @@
 import cn from "classnames"
 import { getDiceFace } from "../../utils/getDiceFace";
-import { IDiceProps, DiceTypes } from "./dice-types";
+import { IDiceProps } from "./dice-types";
 import styles from './dice.module.scss';
 
 export const Dice = ({

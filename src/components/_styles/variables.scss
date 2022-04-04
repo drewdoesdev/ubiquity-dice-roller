@@ -11,6 +11,9 @@ $bright-green: #7f9f42;
 $desert-yellow: #f6c96e;
 $disabled-gray: #dddddd;
 
+// Fonts
+$title-font: 'Adventure', sans-serif;
+$body-font: 'Roboto', sans-serif;
 // Layout
 @mixin flexRowCenter {
     flex-flow: row nowrap;
