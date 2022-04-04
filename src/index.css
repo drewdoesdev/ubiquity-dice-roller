@@ -98,13 +98,15 @@ input, select {
 /* Fonts **/
 @font-face {
   font-family: "Adventure";
-  src: url("./assets/Adventure-YGZ2.ttf") format("ttf")
+  src: url("./assets/Adventure-YGZ2.woff2") format("woff2"),
+       url("./assets/Adventure-YGZ2.woff") format("woff"),
+       url("./assets//Adventure-YGZ2.ttf") format("ttf")
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/Roboto-Black.ttf") format("ttf"),
-       url("./assets/Roboto-Medium.ttf") format("ttf"),
-       url("./assets/Roboto-Italic.ttf") format("ttf"),
-       url("./assets/Roboto-Bold.ttf") format("ttf")
+  src: url("./assets/Roboto-Black.woff2") format("woff2"),
+       url("./assets/Roboto-Black.woff") format("woff"),
+       url("./assets/Roboto-Black.ttf") format("ttf")
+       
 }
