@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ubiquity Dice Roller",
+  "name": "Simple binomial dice roller compatible with Ubiquity System of TTRPGs",
   "icons": [
     {
       "src": "favicon.ico",
