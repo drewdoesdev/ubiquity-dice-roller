@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ubiquity-dice-roller/static/css/main.6d0ce8b8.css",
-    "main.js": "/ubiquity-dice-roller/static/js/main.2de868aa.js",
-    "static/media/Roboto-Black.ttf": "/ubiquity-dice-roller/static/media/Roboto-Black.2a4285847db4a9acb97f.ttf",
-    "static/media/Roboto-Black.woff": "/ubiquity-dice-roller/static/media/Roboto-Black.c0379944e86304e2d36e.woff",
-    "static/media/Roboto-Black.woff2": "/ubiquity-dice-roller/static/media/Roboto-Black.0ab377356b62803f53cc.woff2",
-    "static/media/Adventure-YGZ2.ttf": "/ubiquity-dice-roller/static/media/Adventure-YGZ2.9677cd8d8e48154cdfab.ttf",
-    "static/media/Adventure-YGZ2.woff": "/ubiquity-dice-roller/static/media/Adventure-YGZ2.c92e797e672945142c4b.woff",
-    "static/media/Adventure-YGZ2.woff2": "/ubiquity-dice-roller/static/media/Adventure-YGZ2.ec1d7f8a9201655d5b02.woff2",
-    "static/media/coinflip.svg": "/ubiquity-dice-roller/static/media/coinflip.9c6c01952d3c6064b08f93748dd451ab.svg",
-    "index.html": "/ubiquity-dice-roller/index.html",
-    "main.6d0ce8b8.css.map": "/ubiquity-dice-roller/static/css/main.6d0ce8b8.css.map",
-    "main.2de868aa.js.map": "/ubiquity-dice-roller/static/js/main.2de868aa.js.map"
+    "main.css": "/static/css/main.f4d29051.css",
+    "main.js": "/static/js/main.e9956aa0.js",
+    "static/media/Roboto-Black.ttf": "/static/media/Roboto-Black.2a4285847db4a9acb97f.ttf",
+    "static/media/Roboto-Black.woff": "/static/media/Roboto-Black.c0379944e86304e2d36e.woff",
+    "static/media/Roboto-Black.woff2": "/static/media/Roboto-Black.0ab377356b62803f53cc.woff2",
+    "static/media/Adventure-YGZ2.ttf": "/static/media/Adventure-YGZ2.9677cd8d8e48154cdfab.ttf",
+    "static/media/Adventure-YGZ2.woff": "/static/media/Adventure-YGZ2.c92e797e672945142c4b.woff",
+    "static/media/Adventure-YGZ2.woff2": "/static/media/Adventure-YGZ2.ec1d7f8a9201655d5b02.woff2",
+    "static/media/coinflip.svg": "/static/media/coinflip.9c6c01952d3c6064b08f93748dd451ab.svg",
+    "index.html": "/index.html",
+    "main.f4d29051.css.map": "/static/css/main.f4d29051.css.map",
+    "main.e9956aa0.js.map": "/static/js/main.e9956aa0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d0ce8b8.css",
-    "static/js/main.2de868aa.js"
+    "static/css/main.f4d29051.css",
+    "static/js/main.e9956aa0.js"
   ]
 }
